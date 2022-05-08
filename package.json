@@ -1,0 +1,24 @@
+{
+  "name": "whisky-cms",
+  "version": "1.0.0",
+  "description": "CMS MEAN STACK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "Sofian",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
