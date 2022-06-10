@@ -4,7 +4,8 @@
   "description": "CMS MEAN STACK",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "keywords": [
     "Mongo",
